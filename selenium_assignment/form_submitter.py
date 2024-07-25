@@ -53,7 +53,7 @@ def form_submit():
 
         time.sleep(5) # For confirmation page
 
-        screenshot_path = './screenshots/confirmation_page.png'
+        screenshot_path = 'D:/AI project/AutomateFormFill/selenium_assignment/screenshots/confirmation_page.png'
         driver.save_screenshot(screenshot_path)
  
     finally:

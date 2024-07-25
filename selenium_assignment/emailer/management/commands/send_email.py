@@ -27,7 +27,7 @@ class Command(BaseCommand):
             "3. Emailing the Screenshot via Django\n"
             "- Configured Django project to use SMTP for sending emails.\n"
             "- Created a Django management command to handle email sending.\n\n"
-            "GitHub link:"
+            "GitHub link: https://github.com/Spencerdsheel/Automate-Form-Fill"
             "The link contain the source code of the project\n\n"
             "Please find attached the screenshot of the confirmation page.\n"
         )

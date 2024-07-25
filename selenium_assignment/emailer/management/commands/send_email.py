@@ -6,7 +6,7 @@ class Command(BaseCommand):
     help = 'Send email with attachment'
 
     def handle(self, *args, **kwargs):
-        subject = 'Python (Selenium) Assignment - Spencer Dsheel'
+        subject = 'Python (Selenium) Assignment'
         
         body = (    
             "Project Overview\n\n"
@@ -27,15 +27,15 @@ class Command(BaseCommand):
             "3. Emailing the Screenshot via Django\n"
             "- Configured Django project to use SMTP for sending emails.\n"
             "- Created a Django management command to handle email sending.\n\n"
-            "GitHub link: https://github.com/Spencerdsheel/Automate-Form-Fill\n"
+            "GitHub link: (Your github link)\n"
             "The link contain the source code of the project\n\n"
             "Please find attached the screenshot of the confirmation page.\n"
         )
         
-        from_email = 'spencerdsheel749@gmail.com'
-        to_emails = ['tech@themedius.ai']
-        cc_emails = ['hr@themedius.ai']
-        attachment_path = 'D:/AI project/AutomateFormFill/selenium_assignment/screenshots/confirmation_page.png'
+        from_email = '(your_email.com)'
+        to_emails = ['(source_email.com)']
+        cc_emails = ['(source_email.com)']
+        attachment_path = 'selenium_assignment/screenshots/confirmation_page.png'
 
         email = EmailMessage(subject, body, from_email, to_emails, cc=cc_emails)
         email.attach_file(attachment_path)

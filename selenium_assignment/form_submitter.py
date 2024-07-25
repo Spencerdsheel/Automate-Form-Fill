@@ -22,7 +22,7 @@ def form_submit():
 
     try:
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
-        url = "https://docs.google.com/forms/d/e/1FAIpQLSdUCd3UWQ3VOgeg0ZzNeT-xzNawU8AJ7Xidml-w1vhfBcvBWQ/viewform"
+        url = "(link_of_website_to_scrape)"
         driver.get(url)
       
         WebDriverWait(driver, 10).until(
@@ -53,7 +53,7 @@ def form_submit():
 
         time.sleep(5) # For confirmation page
 
-        screenshot_path = 'D:/AI project/AutomateFormFill/selenium_assignment/screenshots/confirmation_page.png'
+        screenshot_path = 'selenium_assignment/screenshots/confirmation_page.png'
         driver.save_screenshot(screenshot_path)
  
     finally:

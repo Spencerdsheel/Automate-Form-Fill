@@ -42,4 +42,4 @@ This project automates the submission of a Google form using Selenium, captures 
 - `emailer/management/commands/send_email.py`: Django management command to send the email.
 
 ## Screenshot
-![Confirmation Page](D:\AI project\AutomateFormFill\selenium_assignment\screenshots\confirmation_page.png)
+![Confirmation Page](selenium_assignment/screenshots/confirmation_page.png)

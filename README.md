@@ -1,5 +1,5 @@
 ## Automate-Form-Fill" 
-# Python (Selenium) Assignment
+# Python (Selenium)
 
 ## Overview
 This project automates the submission of a Google form using Selenium, captures a screenshot of the confirmation page, and sends the screenshot via email using Django.
